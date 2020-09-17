@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/betrybe/sd-0x-blockY-project-simple-math#readme",
   "devDependencies": {
+    "eslint": "^7.9.0",
     "jest": "^26.0.1"
   }
 }
