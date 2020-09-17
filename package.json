@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/betrybe/sd-0x-blockY-project-simple-math#readme",
   "devDependencies": {
+    "eslint": "^7.9.0",
     "jest": "^26.0.1"
   }
 }
